@@ -6,3 +6,7 @@ out
 next-env.d.ts
 .env*.local
 .DS_Store
+
+# local-only docs
+README.md
+template-*.md
