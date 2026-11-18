@@ -1,0 +1,57 @@
+import type { IconType } from "react-icons";
+import {
+  SiCss,
+  SiDart,
+  SiExpo,
+  SiFlutter,
+  SiHtml5,
+  SiJavascript,
+  SiLaravel,
+  SiNestjs,
+  SiNextdotjs,
+  SiNodedotjs,
+  SiPhp,
+  SiPostgresql,
+  SiPython,
+  SiReact,
+  SiTailwindcss,
+  SiTypescript,
+} from "react-icons/si";
+import {
+  LuCode,
+  LuCpu,
+  LuDatabase,
+  LuGamepad2,
+  LuGlobe,
+  LuPresentation,
+  LuSmartphone,
+} from "react-icons/lu";
+
+export type Skill = { name: string; icon: IconType };
+
+export const skills: Skill[] = [
+  { name: "Next.js", icon: SiNextdotjs },
+  { name: "React", icon: SiReact },
+  { name: "TypeScript", icon: SiTypescript },
+  { name: "JavaScript", icon: SiJavascript },
+  { name: "NestJS", icon: SiNestjs },
+  { name: "Node.js", icon: SiNodedotjs },
+  { name: "Laravel", icon: SiLaravel },
+  { name: "PHP", icon: SiPhp },
+  { name: "PostgreSQL", icon: SiPostgresql },
+  { name: "Database", icon: LuDatabase },
+  { name: "Tailwind CSS", icon: SiTailwindcss },
+  { name: "HTML", icon: SiHtml5 },
+  { name: "CSS", icon: SiCss },
+  { name: "Flutter", icon: SiFlutter },
+  { name: "Dart", icon: SiDart },
+  { name: "React Native", icon: SiReact },
+  { name: "Expo", icon: SiExpo },
+  { name: "Python", icon: SiPython },
+  { name: "Internet of Things", icon: LuCpu },
+  { name: "Web Development", icon: LuGlobe },
+  { name: "App Development", icon: LuSmartphone },
+  { name: "Game Development", icon: LuGamepad2 },
+  { name: "Programming", icon: LuCode },
+  { name: "Instructor", icon: LuPresentation },
+];
